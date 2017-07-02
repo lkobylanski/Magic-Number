@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pre-alpha build - 2v2 multiplayer hot seat</title>
+
+    <script type="text/javascript" src="P2v2.0.js"></script>
+
+  </head>
+  <body>
+    <input type="text" placeholder="Player 1" id="pname1"/>
+    <input type="text" placeholder="Player 2" id="pname2"/>
+    <input type="text" placeholder="Number of wins" id="wins"/>
+	<input type="submit" id="add" value="Add Players" onclick="addPlayers()"/>
+	<br/><br/>
+	<input type="submit" id="start" value="Start Game" onclick="startGame()" disabled />
+	<div id="wrapper"> 
+		<p> <input type="text" id="guess_no" placeholder="Pick your number" disabled /></p>
+		<p> <input type="submit" id="check_no" value="Test Your Luck" onclick="compNums();switchPlayers();" disabled /></p>
+	</div>
+	<div id="dial_box"></div>
+	<br/>
+	<div id="msg"> </div>
+	<br/>
+	<div id="notes1"> </div>
+	<br/>
+	<div id="notes2"> </div>
+	<br/>
+	<div id="pickedh"> </div>
+	<br/>
+	<div id="pickedl"> </div>
+	<br/>
+	<div id="all_wins"> </div>
+	<br/>
+	<p> <input type="submit" id="next" value="Next Game" onclick="nextMatch()" disabled /></p>
+	<p> <input type="submit" id="reload" value="Reload" onclick="reload()"/></p>
+	<p><a href="index.html">Back to Main Menu</a></p>
+
+	
+  </body>
+</html>

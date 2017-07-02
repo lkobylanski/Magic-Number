@@ -1,0 +1,174 @@
+body
+{
+	color: #000000;
+	background-color:  #37771a;
+	font-size: 20px;
+	font-family: 'Pangolin', cursive;
+	margin: 0 !important;
+}
+
+#wrapper
+{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#header
+{
+	height: 90px;
+	width: 100%;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 2px 2px #555555;
+	background-color: #37771a;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0;
+}
+
+#menu_top
+{
+	height: 240px;
+	background-color: #37771a;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 65px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	font-size: 22px;
+	height: 35px;
+	list-style-type: none;
+	display: inline-block; /* musi byc cos co pozwoli na to jak np. text-align: center  divie menu_top; */
+}
+
+ol a /* tutaj edytuje napisy na przyciskach opcji a nie w ul > li bo ten napisy to linki czyli <a href="#"></a>!!!*/
+{
+	width: 150px;
+	height: 40px;
+	margin-top: 5px;
+	color: #ffffff; /*tutaj zapisany jest kolor napisów z menu głównego bo one są linkami*/
+	text-decoration: none;
+	text-shadow: 2px 2px #555555;
+	display: block;
+}
+
+ol > li
+{
+	background-color: #242f3f;
+	width: 150px;
+	height: 40px;
+	margin: 0 0 5px 0; /* left,right,top,bottom */
+	border: 1px groove #a3a375;
+}
+
+ol > li > a:hover
+{
+	margin-top: 5px;
+	color: #000000;
+	display: block;
+}
+
+#social
+{
+	width: 100%;
+	text-align: center;
+	background-color: #292929;
+	border-top: 1px dashed #ffffff;
+	border-bottom: 1px dashed #ffffff;
+}
+
+.socialdivs
+{
+	text-align: center;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+a.sociallink /* a odpowiadajace sociallinko ma nadana klase aby edytowac je jednoczesnie */
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 235px;
+	height: 162px;
+}
+
+.pf
+{
+	width: 235px;
+	height: 155px;
+	float: left;
+}
+
+.pf a:hover
+{
+	color: #3d3d3d;
+	background-color: #cccccc;
+	cursor: pointer;
+}
+
+.gh
+{
+	width: 235px;
+	height: 155px;
+	float: left;
+}
+
+.gh a:hover
+{
+	color: #000000;
+	background-color: #cccccc;
+	cursor: pointer;
+}
+
+.li
+{
+	width: 235px;
+	height: 155px;
+	float: left;
+}
+
+.li a:hover
+{
+	color: #0077B5;
+	background-color: #cccccc;
+	curosr: pointer;
+}
+
+.mail
+{
+	width: 230px;
+	height: 155px;
+	float: left;
+}
+
+.mail a:hover
+{
+	color: #c71610;
+	background-color: #cccccc;
+	curosr: pointer;
+}
+
+#footer
+{
+	/*position: absolute;*/
+	/*bottom: 0;*/
+	font-family: TimesNewRoman;
+	font-size: 16px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #222222;
+	padding: 30px;
+}

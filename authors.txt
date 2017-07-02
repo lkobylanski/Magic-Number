@@ -1,0 +1,5 @@
+Programming: Lukasz Kobylanski
+
+QA Testing: Dorota Kobylanska
+
+Special thanks to: Basia Orlowska, Lukasz Ikafukurou, Cezary Wrobel
