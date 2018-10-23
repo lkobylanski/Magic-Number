@@ -379,7 +379,6 @@ function aiGuess()
 
 		switch_trigger = setTimeout(switchPlayers, 2000);
 	}
-	alert(lower + " : " + lower[0] + " | " + lower_l + " || " + higher + " : " + higher[0] + " | " + higher_l);
 	console.log(aiGuess);
 	
 	return;
